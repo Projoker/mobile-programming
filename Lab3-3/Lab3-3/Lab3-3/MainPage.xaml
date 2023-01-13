@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab3_3.MainPage">
+
+    <StackLayout>
+        <Label
+            x:Name="labelDate"
+            Text="Нажмите для получения даты"
+            FontSize="Title"
+            HorizontalTextAlignment="Center"
+            Padding="20,200,20,40"/>
+
+        <Button
+            Text="Получить дату"
+            Pressed="Button_Pressed"
+            Margin="20,0,20,0"/>
+    </StackLayout>
+
+</ContentPage>
+
